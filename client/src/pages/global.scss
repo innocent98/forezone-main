@@ -1,0 +1,19 @@
+$tab: 768px;
+$mobile: 480px;
+$small: 320px;
+
+@mixin tab {
+  @media (max-width: #{$tab}) {
+    @content;
+  }
+}
+@mixin mobile {
+  @media (max-width: #{$mobile}) {
+    @content;
+  }
+}
+@mixin small {
+  @media (max-width: #{$small}) {
+    @content;
+  }
+}

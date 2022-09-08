@@ -1,0 +1,54 @@
+@import "../global.scss";
+
+.admin {
+  .row {
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    // position: absolute;
+    // left: 20px;
+    // top: -25px;
+    margin: 20px;
+  }
+
+  .logout {
+    background-color: teal;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    @include mobile{
+      position: relative;
+      float: right;
+    }
+  }
+  .adminContainer {
+    margin-top: 100px;
+    padding: 20px;
+    overflow-x: scroll;
+    .table {
+      overflow-x: scroll;
+      tbody {
+        tr {
+          td {
+            .edit,
+            .delete {
+              padding: 4px 8px;
+              border-radius: 4px;
+              border: none;
+            }
+            .none {
+              display: none;
+            }
+            .delete {
+              margin-left: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

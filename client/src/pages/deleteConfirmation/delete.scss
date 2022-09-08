@@ -1,0 +1,40 @@
+@import "../global.scss";
+
+.deleteU {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: gainsboro;
+
+  .container {
+    text-align: center;
+  }
+  .buttons {
+    width: 20%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @include mobile {
+      flex-direction: column;
+      width: 50%;
+    }
+    button {
+      padding: 4px 15px;
+      width: 100%;
+    }
+    .cancel {
+      width: 100%;
+      padding-right: 80px;
+    }
+    .row {
+      width: 100%;
+      margin-left: 10px;
+      .col-md-4 {
+        width: 100%;
+      }
+    }
+  }
+}

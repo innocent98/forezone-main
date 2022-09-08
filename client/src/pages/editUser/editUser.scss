@@ -1,0 +1,30 @@
+.editUser {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .userContainer {
+    .row {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      .col-md-4 {
+        width: 100%;
+        margin-bottom: 10px;
+
+        .form-label {
+          color: black;
+        }
+        .btn {
+          background-color: teal;
+          color: white;
+          border: none;
+          border-radius: 8px;
+          padding: 4px 8px;
+        }
+      }
+    }
+  }
+}

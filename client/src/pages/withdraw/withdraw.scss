@@ -1,0 +1,42 @@
+@import "../global.scss";
+
+.withdrawFund {
+  background-color: white;
+  padding: 20px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  height: auto;
+  position: relative;
+  @include mobile{
+    width: 80%;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    @include mobile{
+      width: 100%;
+    }
+    .col-md-4 {
+      width: 100%;
+      .btn {
+        width: 100%;
+      }
+    }
+  }
+
+  .material-icons {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 10px;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,165 @@
+.approach {
+  height: auto !important;
+  background-color: gainsboro;
+}
+
+.ourApproach {
+  padding: 50px;
+}
+
+.specializeAreas {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+@media screen and (max-width: 480px) {
+  .specializeAreas {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 768px) {
+  .specializeAreas {
+    flex-direction: column;
+  }
+}
+
+.specializeAreasEach {
+  width: 30%;
+  height: 60vh;
+}
+
+@media screen and (max-width: 480px) {
+  .specializeAreasEach {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .specializeAreasEach {
+    width: 100%;
+  }
+}
+
+.specializePic {
+  height: 60%;
+}
+
+.specializePic > img {
+  width: 100%;
+  height: 100%;
+}
+
+.startup {
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.startupBkImg {
+  height: 100%;
+  overflow: hidden;
+}
+
+.startupBkImg > img {
+  height: 100%;
+  width: 100%;
+}
+
+.roleImg {
+  position: absolute;
+  top: 0;
+  left: -10px;
+  width: 50%;
+  height: 100%;
+}
+@media screen and (max-width: 480px) {
+  .roleImg {
+    width: 80%;
+    left: 40px;
+  }
+  .startupBkImg > img {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .roleImg {
+    width: 90%;
+    left: 40px;
+  }
+  .startupBkImg > img {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1020px) {
+  .roleImg {
+    width: 100%;
+    left: 40px;
+  }
+  .startupBkImg > img {
+    display: none;
+  }
+}
+
+.roleImg > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.role {
+  position: absolute;
+  top: 100px;
+  right: 80px;
+  width: 40%;
+}
+@media screen and (max-width: 480px) {
+  .role {
+    top: 200px;
+    width: 80%;
+    left: 40px;
+  }
+  .role > p {
+    font-size: 20px !important;
+  }
+}
+
+.role > p {
+  font-size: 2em;
+  font-weight: 600;
+  color: #10162c;
+}
+
+.role > h2 {
+  color: #10162c;
+  font-size: 3em;
+}
+
+.portfolio {
+  padding: 50px;
+  height: auto;
+}
+
+.portfolioPic {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.img {
+  width: 30%;
+  height: 200px;
+  margin-top: 20px;
+}
+
+.img > img {
+  width: 80%;
+  height: 100%;
+  object-fit: contain;
+}
+
+h2,
+h4,
+h6,
+p {
+  color: #10162c;
+}

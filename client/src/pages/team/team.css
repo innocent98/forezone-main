@@ -1,0 +1,44 @@
+.team {
+  padding: 50px;
+  height: auto;
+  background-color: #10162c;
+  color: white;
+}
+
+.teamPic {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 480px) {
+  .teamPic {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .teamPic {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.teamPic {
+  width: 100%;
+}
+.img {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img > h3 {
+  margin-top: 20px;
+}
+.img > img {
+  width: 77%;
+  height: 80%;
+  border-radius: 50%;
+  object-fit: contain;
+}

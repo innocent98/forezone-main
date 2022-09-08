@@ -1,0 +1,25 @@
+.contactPage {
+  height: auto;
+  background-color: gainsboro;
+  padding: 50px;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.col-contact{
+  width: 100%;
+}
+
+.submit-button{
+  width: 100%;
+}
